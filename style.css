@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aquamarine;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.tabs-header {
+  display: flex;
+  background-color: aquamarine;
+  padding: 10px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  background-color: aliceblue;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.head2 {
+  margin-bottom: 10px;
+}
+
+nav {
+  text-align: center;
+  text-decoration: none;
+}
+nav a:link {
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:link:last-child {
+  margin-right: 0px;
+}
+
+form {
+  width: 90%;
+  margin: 0 auto;
+  /* we create our grid */
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.submit {
+  margin-top: 15px;
+}
+
+section {
+  background-color: aliceblue;
+  padding: 20px;
+}
